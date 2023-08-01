@@ -75,9 +75,10 @@ a {
     /* background-color: rgb(37, 155, 175); */
     border-radius: 2%;
     padding: 25px 0 0 0;
-    margin-left: 10rem;
-    
+    margin-left: 10rem; 
 }
+
+
 
 #profile-picture {
     display: flex;
@@ -86,21 +87,25 @@ a {
     margin: 1.2em;
     align-items: center; 
     /* background-color: #00CDAC; */
-    border: 6px outset #8b4513
+    border: 6px outset #8b4513;
+    flex-shrink: 0,3,800px;
     
 }
+
 h2 {
     display: flex;
     font-size: 1.1em;
     font-family: 'Anton', sans-serif;
     text-align: top;
     background-color: #00CDAC;
-    color: whitesmoke;
+    color:rgb(104, 35, 23) ;
     border-radius: 1.2em;
     height: fit-content;
     align-items: center;
-
+    font-size: 1.2em;
+    padding: 0.5em;
 }
+
 .me-about {
     display: flex;
     border-radius: 25px; 
@@ -110,19 +115,12 @@ h2 {
     border: 4px outset #8b4513
 }
 
-
-   
- h2 {
-    display: inline-block;
-    font-size: 1.6rem;
-    color: white;
-    font-family: 'Proza Libre', sans-serif;
-    border-radius: 1px solid transparent;
-    margin-bottom: 20px;
-
- }
  p {
-    text-align: left;
+    display: flex;
+    /* background-color: #00CDAC; */
+    padding: 2em;
+    margin: 1.5rem;
+  
  }
  .container-portfolio {
     display: flex;
@@ -135,9 +133,9 @@ h2 {
 
  .workexperience-portfolio {
     display: flex;
-    min-height: 200px;
+    min-height: 150px;
     width: 700px;
-    padding: 25px;
+    padding: 20px;
     border: 3px outset #8b4513
     
  }
