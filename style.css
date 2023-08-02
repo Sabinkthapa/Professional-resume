@@ -6,8 +6,9 @@
 }
 
 :root {
-   --gradient-background: linear-gradient(to right, #055a7253, #29a1bc);
-   --primary-textcolor: linear-gradient(to right,  #06384653, #16505d);
+   --gradient-background: linear-gradient(to right, #033a4953, #29a1bc);
+   --gradient-background2: linear-gradient(to left, #b2587b53, #8a0a57);
+
    --font-size-Navbar: 1.5em;
    --border:5px solid #ccc;
    --ff-primary: 'Roboto', sans-serif;
@@ -32,7 +33,8 @@ header {
     padding: 0;
     height: 50px;
     width: 100%;
-    background-image: url();  
+    background-image: var(--gradient-background)
+    
   
     /* position: sticky; */
 }
@@ -46,6 +48,7 @@ header {
     padding: 1.2em;
     margin: -1.2em;
     font-size: var(--font-size-Navbar); 
+    position: fixed;
   
 }
 
@@ -71,13 +74,23 @@ a {
     color: rgb(211, 45, 16) !important;
     font-family: 'chakra petch', sans-serif; 
 } 
+/* Pseudo element ::firstline is for adding a special style to the first line in a text */
+p::first-line {
+    font-variant: small-caps;
+}
+
+::selection {
+color: firebrick;
+background: #e6f0f2;
+}
 
 .container-profile {
     display: flex;
     height: 600px;
     width: 80dvw;
-    margin-top: 0;
-    background-color: rgb(37, 155, 175); 
+    margin-top: 4px;
+    /* background-color: #00CDAC;  */
+    background-image: var(--gradient-background);
     border-radius: 2%;
     padding: 25px 0 0 0;
     margin-left: 10rem; 
@@ -88,22 +101,41 @@ a {
     border-radius: 25px; 
     margin:1.2rem;
     padding: 10px;
-    background-color: #16505d;
- 
+   background-image: var(--gradient-background);
 }
+
 
 .me-about {
     /* display: flex; */
     position: absolute;
     align-items: center;
-    margin-top: 3.5rem;
+    margin-top: 1.8rem;
     margin-left: 50em;
+    margin-right: 40em;
     border-radius: 25px; 
     padding: 1.5em;
+    background-image:var(--gradient-background);
     /* align-items: center;  */
     /* border: 4px outset #8b4513 */
    
 }
+
+.my-projects {
+    text-align: center;
+    margin:1.2em;
+    height: 4dvh;
+    font-size: 25px;
+    margin-left: 30em;
+    margin-right:30em;
+    border-radius: 2px 
+}
+.my-projects #heading-project {
+    color: firebrick;
+    font-family: 'Courier New', Courier, monospace;   
+    background-image: var(--gradient-background);
+    border-radius: 12px;
+}
+
 h2 {
     display: inline-block;
     background-color: white;
@@ -115,6 +147,7 @@ h2 {
     padding: 2em;
     margin: 1.1rem;
     border-radius: 15px;
+    height: 20vh;
   
  }
 
@@ -122,24 +155,20 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    width: 88%;
-    height: 400px;
+    justify-content: left;
+    width: 80%;
+    height: 500px;
     margin-left: 10rem;
     margin-right:10rem; 
-    gap: 1rem;
-    margin-top: 0.5em; 
+    gap: 0.3rem;
+    margin-top: 0.3em; 
+    margin-bottom: 0.3em;
     padding: 2%;
     border-radius: 10px;
-    /* background-image: url(./images/background-image.jpg); */
-    /* put image in background  */
  }
-
- .page-section #project1 {
-    background-color: #301d7b; 
-  
-/* put image in each project */
- }
+ .page-section:hover  {
+    background-color: #16505d;
+}
 
 #proj-1 {
     outline: invert;
@@ -147,7 +176,9 @@ h2 {
     margin: 1.2em,1.2em,0,0;
     border-radius: 2px;
     background-color: white !important;
+    
 }
+
 #proj-2 {
     outline: invert;
     /* align-items: center; */
@@ -181,31 +212,27 @@ h3 {
     font-weight: bold;
 
 }
-
  .flex-container {
     display: flex;
     margin:1.2em;
     text-decoration: dotted;
-    background-color: #00CDAC;
+    /* background-color: #00CDAC; */
+    background-image: var(--gradient-background);
     border-bottom: 15px solid firebrick;
     border-radius: 8px;
     min-height: 10dvh;
-
-
-   
  }
-
  .contact-me {
     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 200px; 
     width: 88%;
     height: 100px;
     margin-left: 10rem;
     margin-right:10rem; 
     gap: 1rem;
-    background-color: #055a7253;
-    /* background image */
+   background-image: var(--gradient-background);
+   border-radius: 10px;
 
  }
  .contact-me #image-size {
