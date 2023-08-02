@@ -1,4 +1,4 @@
-* {
+ *{
     margin: 0;
     padding: 0;
     font-family: 'chakra petch', sans-serif;
@@ -10,18 +10,21 @@
    --primary-textcolor: linear-gradient(to right,  #06384653, #16505d);
    --font-size-Navbar: 1.5em;
    --border:5px solid #ccc;
+   --ff-primary: 'Roboto', sans-serif;
 }
 header {
-    width: 100dvw;
+    max-width: 100dvw;
 }
-h1 {
-    font-size: 1.5em;
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-    background-color: #00CDAC;
-    color: whitesmoke;
-}
+/* .background-image {
+    background-image: url(./images/background-image.jpg);
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
 .navbar {
+ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,24 +32,29 @@ h1 {
     padding: 0;
     height: 50px;
     width: 100%;
-    background: var(--gradient-background)    
+    background-image: url();  
+  
+    /* position: sticky; */
 }
+
+ 
 .navbar ul {
     display: flex; 
-  justify-content: center;
-  justify-content: space-evenly;
+    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     padding: 1.2em;
     margin: -1.2em;
     font-size: var(--font-size-Navbar); 
+  
 }
 
 .navbar ul li {
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    /* justify-items: center; 
-    justify-content: center;  */
+    justify-items: center; 
+    justify-content: center; 
     display: inline;
     margin: 0;
     list-style-type: none;
@@ -55,103 +63,166 @@ h1 {
 
 .navbar ul li:hover {
  background-color: #16505d
-} 
+}  
 
 a {
-    display: flex; 
     justify-content: center;
     text-decoration: none;
     color: rgb(211, 45, 16) !important;
     font-family: 'chakra petch', sans-serif; 
-}
+} 
 
 .container-profile {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 400px;
+    height: 600px;
     width: 80dvw;
-    /* background-color: rgb(37, 155, 175); */
+    margin-top: 0;
+    background-color: rgb(37, 155, 175); 
     border-radius: 2%;
     padding: 25px 0 0 0;
     margin-left: 10rem; 
 }
 
-
-
 #profile-picture {
-    display: flex;
+    position: absolute;
     border-radius: 25px; 
-    padding: 1.2em;
-    margin: 1.2em;
-    align-items: center; 
-    /* background-color: #00CDAC; */
-    border: 6px outset #8b4513;
-    flex-shrink: 0,3,800px;
-    
-}
-
-h2 {
-    display: flex;
-    font-size: 1.1em;
-    font-family: 'Anton', sans-serif;
-    text-align: top;
-    background-color: #00CDAC;
-    color:rgb(104, 35, 23) ;
-    border-radius: 1.2em;
-    height: fit-content;
-    align-items: center;
-    font-size: 1.2em;
-    padding: 0.5em;
+    margin:1.2rem;
+    padding: 10px;
+    background-color: #16505d;
+ 
 }
 
 .me-about {
-    display: flex;
+    /* display: flex; */
+    position: absolute;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-left: 50em;
     border-radius: 25px; 
-    padding: 1.2em;
-    margin: 1.2em; 
-    /* align-items: flex-start;  */
-    border: 4px outset #8b4513
+    padding: 1.5em;
+    /* align-items: center;  */
+    /* border: 4px outset #8b4513 */
+   
+}
+h2 {
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;;
 }
 
  p {
-    display: flex;
-    /* background-color: #00CDAC; */
+    background-color: whitesmoke;
     padding: 2em;
-    margin: 1.5rem;
+    margin: 1.1rem;
+    border-radius: 15px;
   
  }
- .container-portfolio {
+
+ .page-section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    width: 88%;
+    height: 400px;
     margin-left: 10rem;
-    width: 100%;
-    padding: 1.2em;
+    margin-right:10rem; 
+    gap: 1rem;
+    margin-top: 0.5em; 
+    padding: 2%;
+    border-radius: 10px;
+    /* background-image: url(./images/background-image.jpg); */
+    /* put image in background  */
+ }
+
+ .page-section #project1 {
+    background-color: #301d7b; 
+  
+/* put image in each project */
+ }
+
+#proj-1 {
+    outline: invert;
+    /* align-items: center; */
+    margin: 1.2em,1.2em,0,0;
+    border-radius: 2px;
+    background-color: white !important;
+}
+#proj-2 {
+    outline: invert;
+    /* align-items: center; */
+    margin: 1.2em,1.2em,0,0;
+    border-radius: 2px;
+    background-color: white !important;
+}
+#proj-3 {
+    outline: invert;
+    /* align-items: center; */
+    margin: 1.2em,1.2em,0,0;
+    border-radius: 2px;
+    background-color: white !important;
+}
+#proj-4 {
+    outline: invert;
+    /* align-items: center; */
+    margin: 1.2em,1.2em,0,0;
+    border-radius: 2px;
+    background-color: white !important;
+}
+#proj-5 {
+    outline: invert;
+    /* align-items: center; */
+    margin: 1.2em,1.2em,0,0;
+    border-radius: 2px;
+    background-color: white !important;
+}
+h3 {
+    font-family: var(--ff-primary);
+    font-weight: bold;
+
 }
 
- .workexperience-portfolio {
+ .flex-container {
     display: flex;
-    min-height: 150px;
-    width: 700px;
-    padding: 20px;
-    border: 3px outset #8b4513
-    
- }
- .Linkedln {
-    display: flex;
-    min-height: 200px;
-    width: 700px;
-    padding: 25px;
-    border: 3px outset #8b4513
+    margin:1.2em;
+    text-decoration: dotted;
+    background-color: #00CDAC;
+    border-bottom: 15px solid firebrick;
+    border-radius: 8px;
+    min-height: 10dvh;
 
+
+   
  }
 
  .contact-me {
-    display: flex;
-    min-height: 200px;
-    width: 700px;
-    padding: 25px;
-    border: 3px outset #8b4513;
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px; 
+    width: 88%;
+    height: 100px;
+    margin-left: 10rem;
+    margin-right:10rem; 
+    gap: 1rem;
+    background-color: #055a7253;
+    /* background image */
+
  }
+ .contact-me #image-size {
+    max-width: 50px;
+    max-height: 50px;
+ }
+h3{
+    display: block;
+    width: max-content;
+}
+
+
+ @media screen and (max-width: 980px){
+
+
+ }
+
+ @media screen and (max-width:760px){
+
+ } 
