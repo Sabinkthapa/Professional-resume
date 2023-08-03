@@ -37,7 +37,7 @@ body{
     max-width: 100%;
     background-image: var(--gradient-background);
     border-radius:12px;
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
 }
 
 .navbar ul {
@@ -150,7 +150,9 @@ h2 {
     padding: 2em;
     margin: 1.1rem;
     border-radius: 15px;
-    height: 20vh;
+    /* height: 20vh; */
+    height: 200px;
+    width: 200px;
   
  }
 
@@ -260,6 +262,7 @@ h3 {
   .fa-facebook {
     background: #3B5998;
     color: white;
+  
   }
   
   .fa-twitter {
@@ -270,6 +273,7 @@ h3 {
   .fa-google {
     background: #dd4b39;
     color: white;
+
   }
   
   .fa-linkedin {
@@ -298,13 +302,118 @@ h3 {
  }
 
 
- @media screen and (max-width: 600px){
-.navbar ul li a:not(:first-child){
-    display: none;  
-}
+            @media only screen and (max-width: 769px) and (min-width: 375px) {
 
- }
 
- @media screen and (max-width:760px){
+            .navbar {
+                position: sticky;
+            text-align: left; 
+            flex-direction: column;
+            height:100px;
+            background-image: var(--gradient-background);
+            margin-top: 10px;
+            max-width: 100%;
+            margin-left: 0;
+            
+            }
+            .navbar ul  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin-left: 0;
+            }
+            a {
+                font-size: 50px;
+                font-family:var(--font-family)
+                
+            }
 
- } 
+            .container-profile {
+                /* display: flex; */
+                height: 200px;
+                width: 100%;
+            }
+            .me-about {
+                    position: absolute;
+                    width: 50%;
+                    height: 100px;
+                margin-left: 10em;
+                margin-top: 10em;
+            }
+            h1 {
+                font-size: 15px;
+            }
+        
+            .page-section {
+                flex-direction: row;
+                margin-left: 0;
+                width: 100%;
+            
+            }
+            .contact-info {
+                margin-left: 0;
+               width: 100%;
+                width: 80%;
+                height: 100px;
+            }
+            p {
+            font-style: x-small;
+            font-size: 2px;
+            margin-left: 0;
+            }
+            .footer #footer-element {
+                font-size: small;
+            }
+            }
+
+
+        @media only screen  and (max-width: 992px) {
+            a {
+                font-size: 12px;
+                font-family: var(--font-family);
+                text-align: right;
+            
+            }
+
+            .container-profile {
+                /* display: flex; */
+                height: 400px;
+                width: 100%;
+            
+            }
+            #background-profile {
+                width: 90%
+            
+            }
+            .me-about {
+                position: absolute;
+                width: 50%;
+                height: 100px;
+            margin-left: 8em;
+            margin-top:7em;
+            
+            }
+            p {
+                font-style: italic;
+                font-size: small;
+                }
+                .my-projects {
+                    background-color: #007bb5;
+                    width: 100%;
+                margin-left: 0;
+                align-content: center;
+                    
+                }
+                .page-section {
+                    margin-left: 0;
+                    width: 100%;
+                }
+                .contact-info {
+                    margin-left: 0;
+                    width: 100%;
+                
+                }
+        
+        }
+
