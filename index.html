@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+a<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional nav-portfolio</title>
+    <title>Professional portfolio</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:wght@300&family=Proza+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- added icon library to social media buttons -->
 </head>
 
 <body>
@@ -18,15 +20,15 @@
                     <li>
                         <a href="#about-me"  id="about-me">About Me</a>
                     </li>
-
-                      <li id="work-experience">
-                        <a href="#work-Experience" class="flex-item project5">work-Experience</a>
+                      <li>
+                        <a href="#work-experience" class="flex-item project5">Work-Experience</a>
                       </li>
                        <li>
                         <a href="#Linkedln"  >Linkedln</a>
+                        <h2 id="logo"></h2>
                        </li>
                        <li>
-                        <a href="#Contact-me" id="contact-me">Contact Me</a>
+                        <a href="#contact-me" >Contact Me</a>
                        </li>
                 </ul>
         </header>
@@ -35,7 +37,7 @@
        <section class="container-profile">
         <section class="profile-picture">
             <img src="./images/background-image.jpg"  
-            alt="profile picture" id="profile-picture" >
+            alt="background image for profile" id="background-profile" >
         </section>
         <section class="me-about" id="about-me">
             <h2><a href="./profile-picture/Resume/Sabin Kumar Thapa_resume.pdf" alt="this is my resume">About me</a></h2>
@@ -53,30 +55,29 @@
                 <h1 id="heading-project"><span>PORTFOLIO</span></h1>
             </div>
             
-            <section class="page-section">
-               
+            <section class="page-section" id="work-experience">
                 <div class="flex-container" id="project1">
                             <a href="#work-experience" class="flex-item project1" id="proj-1">
                                  <h3> HTML-CSS-JAVASCRIPT</h3><br>
-                                <span>simple website</span>
+                                <span>Simple website</span>
                             </a>
                         </div>
 
                         <div class="flex-container" id="project2">
                             <a href="https://github.com/Sabinkthapa/Professional-resume" class="flex-item project2" id="proj-2">
                                 <h3>JAVASCRIPT</h3><br>
-                                <span>Interactive webpage shopping</span>
+                                <span>Interactive webpage-shopping</span>
                         </a>
                     </div>
+
                     <div class="flex-container" id="project3">
-                        
                             <a href="#work-experience" class="flex-item project3" id="proj-3">
                                 <h3> REACTJS</h3><br>
-                                <span>BLOG with REACTJS</span>
+                                <span>Blog with REACTJS</span>
                         </a>
                     </div>
-                    <div class="flex-container" id="project4">
-                        
+
+                    <div class="flex-container" id="project4">    
                         <a href="#work-experience" class="flex-item project4" id="proj-4">
                         
                             <h3>NODE JS</h3><BR>
@@ -92,26 +93,45 @@
                         </a>
                 </div>
         
-</div>
+            </div>
                 </section>
-
-                <div class="contact-me">
+                <div class ="contact-info" id="contact-me" >
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+      
+                
+                <!-- <div class ="contact-info" id="contact-me" >
                     <div class="icon">
                         <img src="./images/email.png" alt="icon email">
-                        <h4>Email address: Sabinkumarthapa@gmail.com</h4>
                     </div>
                     
                     <div class="icon">
                         <img src="./images/instagram.png" alt="icon instagram" id="image-size">
                         <h4>Instagram</h4>
                     </div>
-                    <footer class="icon">
-                        <img src="./images/linklen.png" alt="icon linkedlin">
-                        <h4>Email address: Sabinkumarthapa@gmail.com</h4>
-                    </footer> 
-                </div>
-        </main>
 
+                     <div class="icon">
+                        <img src="./images/linklen.png" alt="icon linkedlin">
+                        <a href="https://www.linkedin.com/feed/" id="logo"></a>
+                        <h4 id="Linkedln"></h4>
+                        <a href="https://www.linkedin.com/feed/" target="_blank >My linkedln profile>
+                      </a> -->
+                    <!-- </div> -->
+<!-- 
+                    <div class="icon">
+                        <img src="./images/facebook.png" alt="icon facebook"> -->
+                    
+                    </div> 
+                </div> 
+
+                <footer class="footer">
+                    <h3 id="footer-element"> 2023. All rights reserved</h3>
+                </footer>  
+            </main>
 </body>
 </html>
 
