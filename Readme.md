@@ -12,11 +12,11 @@
 
 ## Usage
 
-Users can reengineeing the code , inspect the html css code and then can have a better understanding of css for make their own project and in this context a portfolio showcase.
+Users can reverse reengineeing the code and can manipulate the code itself so that user can have a better understanding of css for make their own project and more learning and adding more advanced features of css.
 
 Screenshots of some of the work of this project:
 ![peudo element in css screenshot](./screenshot/peudo%20element.png)
-![root:global css variable](./screenshot/root-css global variables.png)
+![root:global css variable](./screenshot/ROOT.png)
 ![media-query css screenshot](./screenshot/media-query.png )
 ![outlook with normal icon for social media](./screenshot/before-social-media.png)
 ![snapshot1](./screenshot/snapshot1.png)
