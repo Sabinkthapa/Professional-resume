@@ -57,7 +57,7 @@
                             list-style-type: none;
 
                         }
-
+                        /* hover rule with background color */
                         .navbar ul li:hover {
                         background-color: #16505d
                         }  
@@ -143,7 +143,8 @@
                             width: 200px;
                         
                         }
-
+/* The Flexible Box Layout Module, makes it easier to design flexible responsive
+ layout structure without using float or positioning.*/
                         .main-portfolio {
                             display: flex;
                             flex-wrap: wrap;

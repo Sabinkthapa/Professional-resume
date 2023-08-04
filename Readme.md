@@ -23,7 +23,7 @@ Screenshots of some of the work of this project:
 ![inspecting-manupulating](./screenshot/inspecting-manupulating.png)
 ![smaller-device interface](./screenshot/smaller-device-interface.png)
 
-
+- Instead of using flexbox for the whole website i have used flexbox section wise for better understanding for the viewer.
 
 ## Deployment link
 -Please check the deployed link of the website.
