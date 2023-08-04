@@ -18,7 +18,7 @@ Screenshots of some of the work of this project:
 ![peudo element in css screenshot](./screenshot/peudo%20element.png)
 ![root:global css variable](./screenshot/ROOT.png)
 ![media-query css screenshot](./screenshot/media-query.png )
-![outlook with normal icon for social media](./screenshot/before-social-media.png)
+![outlook with normal icon for social media](./screenshot/snapshot.png)
 ![snapshot1](./screenshot/snapshot1.png)
 ![inspecting-manupulating](./screenshot/inspecting-manupulating.png)
 ![smaller-device interface](./screenshot/smaller-device-interface.png)
