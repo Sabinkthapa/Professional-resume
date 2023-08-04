@@ -27,5 +27,5 @@ Screenshots of some of the work of this project:
 
 ## Deployment link
 -Please check the deployed link of the website.
--
+-https://sabinkthapa.github.io/Professional-resume/
 
