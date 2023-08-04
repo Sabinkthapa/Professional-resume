@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:wght@300&family=Proza+Libre&display=swap" rel="stylesheet">
+    <!-- imported linked for the font family chakra from google font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <!-- added icon library to social media buttons -->
 </head>
@@ -18,23 +17,22 @@
             <nav class="navbar">
                 <ul>
                     <li>
-                        <a href="#about-me"  id="about-me">About Me</a>
+                        <a href="#about-me"  id="about-me" alt="linked to the about me section in the page">About Me</a>
                     </li>
                       <li>
-                        <a href="#work-experience" class="flex-item project5">Work-Experience</a>
+                        <a href="#work-experience" id="workexperience" alt="link to the work experience section when clicked">Work-Experience</a>
                       </li>
                        <li>
-                        <a href="#Linkedln"  >Linkedln</a>
-                        <!-- put linkedln link here -->
+                        <!-- open separate windows for linklin profile -->
+                        <a href="https://www.linkedin.com/feed/" target="_blank" alt="linked to the linkedln profile with clicked">Linkedln</a>
                         <h2 id="logo"></h2>
                        </li>
                        <li>
-                        <a href="#contact-me" >Contact Me</a>
+                        <a href="#contact-me" alt="linked to the contact section of the page when clicked">Contact Me</a>
                        </li>
                 </ul>
         </header>
         
-    <!---- Banner -->
        <section class="container-profile">
         <section class="profile-picture">
             <img src="./images/background-image.jpg"  
@@ -57,58 +55,53 @@
                 <h1 id="heading-project"><span>PORTFOLIO</span></h1>
             </div>
             
-            <section class="page-section" id="work-experience">
+            <section class="main-portfolio" id="work-experience">
                 <div class="flex-container" id="project1">
-                    <!-- linking my project to github profile with new window brower -->
-                            <a href="https://github.com/Sabinkthapa/" target="_blank"  class="flex-item project1" id="proj-1">
+                    <!-- linked to my github profile with new window brower when user click inside the description of project box -->
+                            <a href="https://github.com/Sabinkthapa/" target="_blank"   id="proj-1">
                                  <h3> HTML-CSS-JAVASCRIPT</h3><br>
                                 <span>Simple website</span>
                             </a>
                         </div>
 
                         <div class="flex-container" id="project2">
-                            <a href="https://github.com/Sabinkthapa/" target="_blank"  class="flex-item project2" id="proj-2">
+                            <a href="https://github.com/Sabinkthapa/" target="_blank"   id="proj-2">
                                 <h3>JAVASCRIPT</h3><br>
                                 <span>Interactive webpage-shopping</span>
                         </a>
                     </div>
 
                     <div class="flex-container" id="project3">
-                            <a href="https://github.com/Sabinkthapa/" target="_blank"  class="flex-item project3" id="proj-3">
+                            <a href="https://github.com/Sabinkthapa/" target="_blank"   id="proj-3">
                                 <h3> REACTJS</h3><br>
                                 <span>Blog with REACTJS</span>
                         </a>
                     </div>
 
                     <div class="flex-container" id="project4">    
-                        <a href="https://github.com/Sabinkthapa/" target="_blank"  class="flex-item project4" id="proj-4">
-                        
+                        <a href="https://github.com/Sabinkthapa/" target="_blank"   id="proj-4">
                             <h3>NODE JS</h3><BR>
                             <span>How to use NODEJS tutoriol</span>
                             </a>
                         </div>
-                        <div class="flex-container" id="project5">
-                                
-                            <a href="https://github.com/Sabinkthapa/" target="_blank" class="flex-item project5" id="proj-5">
-    
+
+                        <div class="flex-container" id="project5">  
+                            <a href="https://github.com/Sabinkthapa/" target="_blank"  id="proj-5">
                                 <h3> MERN</h3><br>
                                 <span id="single-page-application">Single page application</span>
                         </a>
                 </div>
-        
-            </div>
                 </section>
+                
+                <!-- Adding the class from library link added in html  -->
                 <div class ="contact-info" id="contact-me" >
-                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.gmail.com" target="_blank" class="fa fa-google"></a>
+                    <a href="https://www.linkedln.com" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
                 </div>
                     
-                    </div> 
-                </div> 
-
                 <footer class="footer">
                     <h3 id="footer-element"> 2023. All rights reserved</h3>
                 </footer>  
