@@ -1,5 +1,5 @@
 
-# <Professional-Portfolio>
+# Professional-Portfolio
 
 ## This project shows how can we present a professional portfolio using CSS and HTML markup.User can understand how we can present a portfolio using CSS and HTML markup by reverse engineering the code and also can understand the usage of advance properties like flexbox, hover, media queries, var properties etc.
 
