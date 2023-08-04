@@ -1,4 +1,5 @@
-## <Professional Portfolio>
+
+# <Professional Portfolio>
 
 ## This project shows how can we present a professional portfolio using CSS and HTML markup.User can understand how we can present a portfolio using CSS and HTML markup by reverse engineering the code and also can understand the usage of advance properties like flexbox, hover, media queries, var properties etc.
 
@@ -15,8 +16,8 @@ Users can reengineeing the code , inspect the html css code and then can have a 
 
 Screenshots of some of the work of this project:
 ![peudo element in css screenshot](./screenshot/peudo%20element.png)
-![root:global css variable](./screenshot/root%20global.css)
-![media-query css screenshot](./screenshot/media-query.css  )
+![root:global css variable](./screenshot/root-css global variables.png)
+![media-query css screenshot](./screenshot/media-query.png )
 ![outlook with normal icon for social media](./screenshot/before-social-media.png)
 ![snapshot1](./screenshot/snapshot1.png)
 ![inspecting-manupulating](./screenshot/inspecting-manupulating.png)
